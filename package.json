@@ -1,0 +1,24 @@
+{
+  "name": "code_cloudes_project_nazim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "jest"
+  },
+  "author": "Sk Abdul Nazim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-geocoder": "^4.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
